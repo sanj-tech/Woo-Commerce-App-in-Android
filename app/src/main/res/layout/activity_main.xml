@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/my_logo"
+        android:layout_width="113dp"
+        android:layout_height="122dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="172dp"
+        android:layout_marginEnd="21dp"
+        android:src="@drawable/logo_shop"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="21dp" />
+
+    <TextView
+        android:id="@+id/theme_logo"
+        android:layout_width="229dp"
+        android:layout_height="67dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="196dp"
+        android:text="Online Shop "
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="59dp" />
+
+    <TextView
+        android:id="@+id/themelogo1"
+        android:layout_width="229dp"
+        android:layout_height="67dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="247dp"
+        android:text="Meet to your valuable need search
+ and buy it "
+        android:textColor="#fff"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:gravity="center_horizontal"
+        android:layout_marginLeft="72dp"
+        android:layout_alignParentLeft="true" />
+
+
+    <Button
+        android:id="@+id/btjoin"
+        android:layout_width="274dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/themelogo1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="137dp"
+        android:background="@drawable/buttondesign"
+        android:text="Join Now"
+        android:textColor="#fff"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        app:backgroundTint="#ff0000" />
+<!--        android:background="@drawable/buttondesign"-->
+
+
+    <Button
+        android:id="@+id/btlogin"
+        android:layout_width="278dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/btjoin"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="62dp"
+        android:layout_marginLeft="62dp"
+
+        android:layout_marginTop="47dp"
+        android:layout_marginBottom="125dp"
+        android:background="@drawable/buttonshape"
+        android:text="Already have an account? Login"
+        android:textColor="#fff"
+        app:backgroundTint="#ff0000" />
+
+
+</RelativeLayout>
